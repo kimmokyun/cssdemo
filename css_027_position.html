@@ -12,15 +12,16 @@
         border: width 0;
       }
       .box1 {
-        width: 500px;
-        height: 100px;
+        width: 2000px;
+        height: 400px;
         background-color: black;
       }
       .box2 {
         width: 500px;
-        height: 200px;
+        height: 300px;
         background-color: yellow;
         position: relative;
+        top:100px;
       }
       .box3 {
         width: 100px;
@@ -57,8 +58,9 @@
   </head>
   <body>
     <div>
-      <div class="box1"></div>
-      <div class="box2">
+      <div class="box1">
+      <div class="box2"></div>
+      <p>DAYUNART</p>
       <div class="box3"></div>
       <div class="box4"></div>
       <p>요소들의 위치변경</p>
@@ -101,6 +103,32 @@
     <br />
     <br />
     <br />
+      <div id="wrap">
+        <form action="#" method="post">
+          <fieldset class="loginmenu">
+            <logend class="hidden">로그인</logend>
+            <input
+              type="text"
+              id="id"
+              name="id"
+              title="아이디입력"
+              placeholder="아이디입력"
+            />
+            <input
+              type="password"
+              name="password"
+              id="password"
+              title="비밀번호입력"
+              placeholder="비밀번호입력"
+            />
+            <input type="checbox" name="remeber" id="remeber" />
+            <label for="remeber">아이디 저장</label>
+            <input
+              type="image"
+              src="images/signin.gif"
+              alt="로그인버튼"
+              id="loginbtn"
+            />
 
   </body>
 </html>
